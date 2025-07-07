@@ -8,7 +8,8 @@ const Footer = () => {
                 <div className="md:max-w-96">
                     <img className="w-36 h-auto" src={assets.logo} alt="logo" />
                     <p className="mt-6 text-sm">
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        Welcome to our movie booking app. 🎬 Book your favorite movies anytime, anywhere!.
+                        This app allows you to browse, select, and book movie tickets with ease — all in one place.
                     </p>
                     <div className="flex items-center gap-2 mt-4">
                         <img src={assets.googlePlay} className="h-9 w-auto" />
@@ -22,14 +23,14 @@ const Footer = () => {
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About us</a></li>
                             <li><a href="#">Contact us</a></li>
-                            <li><a href="#">Privacy policy</a></li>
+                            {/* <li><a href="#">Privacy policy</a></li> */}
                         </ul>
                     </div>
                     <div>
                         <h2 className="font-semibold mb-5">Get in touch</h2>
                         <div className="text-sm space-y-2">
-                            <p>+1-234-567-890</p>
-                            <p>contact@example.com</p>
+                            <p>+91-234-567-8901</p>
+                            <p>shristiverma1311@gmail.com</p>
                         </div>
                     </div>
                 </div>
